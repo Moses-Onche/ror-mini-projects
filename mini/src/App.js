@@ -17,16 +17,16 @@ function App() {
         >
           Learn React
         </a>
-        <Heading />
       </header>
+      <Heading />
     </div>
   );
 }
 
 function Heading() {
   return (
-    <div>
-      <h1>Heading type 1</h1>
+    <div className="block-texts">
+      <h1>Lello</h1>
       <h2>Heading type 2</h2>
       <h3>Heading type 3</h3>
       <h4>Heading type 4</h4>
